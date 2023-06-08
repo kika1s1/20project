@@ -1,0 +1,67 @@
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    height: 97vh;
+    background-color: #633131;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.qoute-container{
+    width: auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px white;
+    background-color: white;
+    padding: 30px;
+}
+.qoute-text{
+    font-size: 2.7rem;
+}
+.qoute-author{
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: 15px;
+
+
+}
+.button-container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+button{
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0.3rem white;
+    font-size: 1.2rem;
+}
+button:hover{
+    filter: brightness(110%);
+    cursor: pointer;
+}
+button:active{
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem white;
+}
+.twitter-btn:hover{
+    background-color: blue;
+}
+@media screen and (max-width: 1000px){
+    .qoute-container{
+        margin: auto 20px;
+    }
+
+}
