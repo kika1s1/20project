@@ -17,6 +17,6 @@ button.addEventListener("click", async () => {
     button.style.visibility = "hidden";
     // start picture in picture
     await videoElement.requestPictureInPicture();
-    // button.style.visibility = "visible"
+    button.style.visibility = "visible"
 })
 SelectMediaStream();
